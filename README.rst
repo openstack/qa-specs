@@ -7,22 +7,34 @@ part of the OpenStack program. This provides an ability to ensure that
 everyone has signed off on the approach to solving a problem early
 on.
 
+Repository Structure
+====================
+The expected structure of the respository is as follows::
+
+  specs/
+      implemented/
+
+
 Expected Work Flow
 ==================
 
-1. Propose review to qa-specs repository
-2. Bring forward the proposed item to the openstack-qa meeting for summary
-3. Review happens on proposal by qa-core members, and others
-4. Iterate until review is Approved or Rejected
+1. Create a blueprint stub in ``tempest`` blueprint repository
+2. Propose review to qa-specs repository (ensure bp:blueprint_name is
+   in the commit message
+3. Link ``Read the full specification`` to the gerrit address of the spec
+4. Bring forward the proposed item to the openstack-qa meeting for summary
+5. Review happens on proposal by qa-core members, and others
+6. Iterate until review is Approved or Rejected
 
-Once a Review is Approved
-1. Create launchpad blueprint
-2. Copy summary text of blueprint to there
-3. Link ``Read the full specification`` to the git address of the spec
-4. Profit!
+Once a Review is Approved...
+
+1. Update blueprint, Copy summary text of blueprint to there
+2. Link ``Read the full specification`` to the git address of the spec
+3. Profit!
+
 
 Revisiting Specs
-===============
+================
 We don't always get everything right the first time. If we realize we
 need to revisit a specification because something changed, either we
 now know more, or a new idea came in which we should embrace, we'll
