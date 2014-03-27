@@ -4,14 +4,10 @@
 QA Project Specifications
 =========================
 
-Contents:
-
 .. toctree::
    :glob:
    :maxdepth: 2
 
-   README
-   template
    specs/*
 
 -----------
@@ -24,6 +20,16 @@ These specifications have been approved and already implemented:
    :maxdepth: 1
 
    specs/implemented/*
+
+====================================
+Specification Repository Information
+====================================
+
+.. toctree::
+   :maxdepth: 2
+
+   README <README>
+   Sample Template <template>
 
 
 ==================
