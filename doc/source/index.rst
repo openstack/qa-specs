@@ -10,17 +10,6 @@ QA Project Specifications
 
    specs/*
 
------------
-Implemented
------------
-These specifications have been approved and already implemented:
-
-.. toctree::
-   :glob:
-   :maxdepth: 1
-
-   specs/implemented/*
-
 ====================================
 Specification Repository Information
 ====================================
