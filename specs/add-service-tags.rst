@@ -1,9 +1,9 @@
 ::
 
-# This work is licensed under a Creative Commons Attribution 3.0 Unported
-# License.
-#
-# http://creativecommons.org/licenses/by/3.0/legalcode
+ This work is licensed under a Creative Commons Attribution 3.0 Unported
+ License.
+
+ http://creativecommons.org/licenses/by/3.0/legalcode
 
 ..
 
@@ -92,6 +92,7 @@ Work Items
 - Add service decorator
 - Add service tags to scenario tests
 - Create Hacking Extension to force service tags in scenario tests
+- Create Hacking Extension to ensure service tag isn't in module path
 - Add service tags to applicable volume api tests
 - Add service tags to applicable compute api tests
 - Add service tags to applicable image api tests
