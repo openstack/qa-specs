@@ -23,10 +23,12 @@ import sys
 
 ERRORS = 0
 
+
 def error(msg):
     global ERRORS
     ERRORS += 1
     print(msg)
+
 
 def get_options():
     parser = argparse.ArgumentParser(
@@ -34,6 +36,7 @@ def get_options():
     parser.add_argument('-d', '--dir', help="Specifications Directory",
                         default="specs")
     return parser.parse_args()
+
 
 def find_rst_files(dirname):
     files = []
@@ -43,16 +46,20 @@ def find_rst_files(dirname):
                 files.append("%s/%s" % (root, f))
     return files
 
+
 def ensure_files_end_in_rst(files):
     for fname in files:
         if not re.search("\.rst$", fname):
             error("E001: Filename %s does not end in .rst" % fname)
 
+
 def ensure_lt80(files):
     for fname in files:
         for line in fileinput.input(fname):
             if len(line) > 80:
-                error("E002: File %s exceeds 80 columns" % fname)
+                i = fileinput.lineno()
+                error("E002: File %s:%s exceeds 80 columns" % (fname, i))
+
 
 def main():
     opts = get_options()
