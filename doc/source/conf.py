@@ -30,8 +30,16 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.intersphinx',
               'sphinx.ext.todo',
               'sphinx.ext.viewcode',
-              'oslosphinx'
+              'oslosphinx',
              ]
+
+# Optionally allow the use of sphinxcontrib.spelling to verify the
+# spelling of the documents.
+try:
+    import sphinxcontrib.spelling
+    extensions.append('sphinxcontrib.spelling')
+except ImportError:
+    pass
 
 todo_include_todos = True
 
