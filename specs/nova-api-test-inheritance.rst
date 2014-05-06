@@ -85,13 +85,13 @@ This blueprint proposes to change the structure to
 * tempest/api/compute/v2/ : v2 API specific test files
 * tempest/api/compute/v3/ : v3 API specific test files
 
-The test files which can be inherited with the way(2) will be stored to
-"tempest/api/compute/". Otherwise, the hierarchy would be
+If there is no shared code between the v2 and v3 APIs the inheritance model
+from (2) won't work. So in these cases the hierarchy will be:
 
 * [v2 test class] -> [CommonComputeTest]
 * [v3 test class] -> [CommonComputeTest]
 
-and these test files would be stored to
+and these test files will be stored directly in:
 
 * tempest/api/compute/v2/
 * tempest/api/compute/v3/
