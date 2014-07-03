@@ -10,6 +10,14 @@ QA Project Specifications
 
    specs/*
 
+Implemented Specifications
+--------------------------
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
+   specs/implemented/*
+
 ====================================
 Specification Repository Information
 ====================================
