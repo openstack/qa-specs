@@ -13,7 +13,7 @@ Implement Trove API tests
 
 https://blueprints.launchpad.net/tempest/+spec/tempest-guest-tests
 
-Increase integration test coverage in Tempest 
+Increase integration test coverage in Tempest
 
 
 Problem description
@@ -38,18 +38,22 @@ Following Implementation is needed in Tempest:
 1. Implement service client
 --------------------------------
 Seperate service client should be implemented for each type of APIs
+
 For example-
-All instance APIs client should be implemented in
-/tempest/api/database/json/instances_client.py
-All backup APIs client should be implemented in
-/tempest/api/database/json/backups_client.py
+
+* All instance APIs client should be implemented in
+  /tempest/api/database/json/instances_client.py
+* All backup APIs client should be implemented in
+  /tempest/api/database/json/backups_client.py
 
 2. Implement test cases
 --------------------------------
 Seperate folder of each type of API needs to be maintained
+
 For example-
-All instance APIs tests should go under /tempest/api/database/instances
-All backup APIs tests should go under /tempest/api/database/backups.
+
+* All instance APIs tests should go under /tempest/api/database/instances
+* All backup APIs tests should go under /tempest/api/database/backups.
 
 
 Implementation
@@ -62,10 +66,11 @@ Primary assignee:
   Nikhil Manchanda <SlickNik@gmail.com>
 
 Other contributors:
-  Ghanshyam Mann <ghanshyam.mann@nectechnologies.in>
-  Peter Stachowski <peter@tesora.com>
-  Ravikumar Venkatesan <ravikumar.venkatesan@hp.com>
-  Ashish Nigam <ashish.nigam1@globallogic.com>
+
+* Ghanshyam Mann <ghanshyam.mann@nectechnologies.in>
+* Peter Stachowski <peter@tesora.com>
+* Ravikumar Venkatesan <ravikumar.venkatesan@hp.com>
+* Ashish Nigam <ashish.nigam1@globallogic.com>
 
 Milestones
 ----------
