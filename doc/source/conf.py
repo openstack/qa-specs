@@ -31,7 +31,12 @@ extensions = ['sphinx.ext.autodoc',
               'sphinx.ext.todo',
               'sphinx.ext.viewcode',
               'oslosphinx',
+              'yasfb',
              ]
+
+# Feed configuration for yasfb
+feed_base_url = 'http://specs.openstack.org/openstack/qa-specs'
+feed_author = 'OpenStack QA Team'
 
 # Optionally allow the use of sphinxcontrib.spelling to verify the
 # spelling of the documents.
