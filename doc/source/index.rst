@@ -26,7 +26,6 @@ Specification Repository Information
    :maxdepth: 2
 
    README <README>
-   Sample Template <template>
 
 
 ==================
