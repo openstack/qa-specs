@@ -4,11 +4,23 @@
 QA Project Specifications
 =========================
 
+Tempest Project Specifications
+------------------------------
+
 .. toctree::
    :glob:
    :maxdepth: 2
 
    specs/*
+
+DevStack Project Specifications
+-------------------------------
+
+.. toctree::
+   :glob:
+   :maxdepth: 2
+
+..   specs/devstack/*
 
 Implemented Specifications
 --------------------------

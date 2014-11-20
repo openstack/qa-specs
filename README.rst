@@ -7,23 +7,27 @@ part of the OpenStack program. This provides an ability to ensure that
 everyone has signed off on the approach to solving a problem early
 on.
 
+This repository includes the Tempest and DevStack projects.
+
 Repository Structure
 ====================
-The expected structure of the repository is as follows::
+The structure of the repository is as follows::
 
   specs/
+      devstack/
       implemented/
 
 
 Expected Work Flow
 ==================
 
-1. Create a blueprint stub in ``tempest`` blueprint repository
+1. Create a blueprint stub in ``tempest``  or ``devstack`` blueprint repository
 2. Propose review to qa-specs repository (ensure bp:blueprint_name is
-   in the commit message
+   in the commit message.  DevStack specs should go into the ``devstack/`` subdirectory
+   but otherwise follow the same process.
 3. Link ``Read the full specification`` to the gerrit address of the spec
 4. Bring forward the proposed item to the openstack-qa meeting for summary
-5. Review happens on proposal by qa-core members, and others
+5. Review happens on proposal by qa-core members and others
 6. Iterate until review is Approved or Rejected
 
 Once a Review is Approved...
@@ -46,8 +50,8 @@ This is a new way of attempting things, so we're going to be low in
 process to begin with to figure out where we go from here. Expect some
 early flexibility in evolving this effort over time.
 
-Specs for new tests
-===================
+Tempest Specs For New Tests
+===========================
 If you're writing a new spec to improve the testing coverage in Tempest the
 requirements for what is included in the specification are slightly less
 stringent and different from other proposals. This is because blueprints for
@@ -72,3 +76,21 @@ tests are:
 * What external tool is being used to track the development.
 
   * If no external tracking is being used just explain why.
+
+DevStack Specs
+==============
+
+Specs for DevStack fall into a couple of broad categories:
+
+* Support for new {project|driver|cool widget}
+
+  This is where the discussion of "Does this support belong in the
+  DevStack repo?" should take place.
+
+* Significant re-factoring
+
+  One primary section that these types of changes require is an analysis
+  of backward compatibility and Grenade impacts.
+
+The existing template is mostly suitable for DevStack use, a quick
+s/tempest/devstack/ handles the majority of changes.
