@@ -119,6 +119,10 @@ Assignee(s)
 Primary assignee:
   Zhi Kun Liu <liuzhikun@gmail.com>
 
+Other Contributors:
+  Chandan Kumar <chkumar246@gmail.com>
+  jun xie <junxiebj@cn.ibm.com>
+
 Milestones
 ----------
 
