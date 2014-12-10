@@ -96,11 +96,14 @@ Assignee(s)
 Primary assignee:
   Matthew Treinish <mtreinish@kortar.org>
 
+Other contributors:
+  Ken'ichi Ohmichi <oomichi@mxs.nes.nec.co.jp>
+
 Milestones
 ----------
 
 Target Milestone for completion:
-  Juno Release
+  Kilo Release
 
 Work Items
 ----------
@@ -122,7 +125,15 @@ Work Items
    * Matchers
    * SSH validation code
 
- * Copy and convert the Tempest REST Client and service clients
+ * Copy and convert the Tempest REST Client
+
+   * Clean up the REST Client code
+   * Separate the base REST Client code from Tempest specific code
+   * Move the REST Client specific exception to base REST Client code
+   * Copy the base REST Client code to tempest-lib repository
+   * Switch Tempest to use the base REST Client code of tempest-lib
+
+ * Copy and convert the Tempest service clients
  * Add documentation and examples for using the libraries interfaces
 
 Dependencies
