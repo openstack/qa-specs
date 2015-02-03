@@ -51,6 +51,16 @@ just adding more API tests can leave this section empty.
 Where it does apply we'd just like a demonstration that some thought
 has been put into why the proposed approach is the best one.
 
+Projects
+========
+
+List the qa projects that this spec effects. For example:
+
+* openstack/tempest
+* openstack/tempest-lib
+* openstack-dev/devstack
+
+
 Implementation
 ==============
 
