@@ -20,7 +20,7 @@ DevStack Project Specifications
    :glob:
    :maxdepth: 2
 
-   specs/devstack/*
+..   specs/devstack/*
 
 Implemented Specifications
 --------------------------
