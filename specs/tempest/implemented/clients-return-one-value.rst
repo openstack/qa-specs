@@ -11,8 +11,8 @@ https://blueprints.launchpad.net/tempest/+spec/clients-return-one-value
 
 Currently tempest clients return a response code and body. Since we moved
 response checking to clients, almost all callers of the clients ignore the
-response code: :doc:`implemented/client-checks-success`. It would be much
-cleaner if clients returned a single response
+response code: :doc:`client-checks-success`. It would be
+much cleaner if clients returned a single response
 object that was the body, with a property to get the response status and
 headers if needed.
 

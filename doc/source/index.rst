@@ -11,7 +11,7 @@ Tempest Project Specifications
    :glob:
    :maxdepth: 2
 
-   specs/*
+   specs/tempest/*
 
 DevStack Project Specifications
 -------------------------------
@@ -28,7 +28,8 @@ Implemented Specifications
    :glob:
    :maxdepth: 1
 
-   specs/implemented/*
+   specs/tempest/implemented/*
+   specs/devstack/implemented/*
 
 ====================================
 Specification Repository Information
