@@ -120,6 +120,18 @@ resource names are the same between a single noun and multiple nouns like
 "chassis". So it is better to avoid using "get_<resource name>" for clarifying
 the method behavior. The hacking check of this rule is mentioned at the above.
 
+Separate service client modules for each resource
+-------------------------------------------------
+
+Some service clients contain the methods for multiple resources in a single
+module. For example, server_client module contains the methods for "/servers"
+and "/server_groups". Current separation of modules are inconsistent, and
+this spec proposes all service client modules will be separated into a single
+module by each resource.
+In addition, current modules of service clients contain "JSON" in these names
+but we need to remove them. Because current service clients supports JSON only
+and "JSON" in these names are meaningless now.
+
 Implementation
 ==============
 
@@ -144,4 +156,12 @@ Work Items
 ----------
 
 * Rename service clients' methods based on this proposal.
+* Rename service clients' classes based on this proposal.
+* Separate service clients' modules per resources.
 * Add hacking rules based on this proposal.
+
+References
+==========
+
+* We have discussed this working items at Vancouver Summit.
+  The log is https://etherpad.openstack.org/p/YVR-QA-Tempest-service-clients
