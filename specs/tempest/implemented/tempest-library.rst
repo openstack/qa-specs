@@ -133,7 +133,14 @@ Work Items
    * Copy the base REST Client code to tempest-lib repository
    * Switch Tempest to use the base REST Client code of tempest-lib
 
- * Copy and convert the Tempest service clients
+ * Cleanup in Tempest service clients
+
+   * Use ResponseBody/List on all service clients for consistent interface
+   * Remove CONF values from service clients
+
+     Current service clients contain CONF values from tempest.conf but they
+     should be independent from tempest.conf as library functions.
+
  * Add documentation and examples for using the libraries interfaces
 
 Dependencies
@@ -143,3 +150,8 @@ This shouldn't be dependent on any other effors, however it may cause conflicts
 with other BPs in progress, so care should be made when porting things to ensure
 all the in progress efforts don't end up being lost in the aftermath of a
 library conversion.
+
+References
+==========
+
+.. [1] http://lists.openstack.org/pipermail/openstack-dev/2014-March/028920.html
