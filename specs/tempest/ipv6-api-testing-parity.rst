@@ -18,7 +18,7 @@ Problem description
 ===================
 
 IPv6 is evolving in Neutron and the community is working hard to add the
-neccessary support. However, the current API tests in tempest do not
+necessary support. However, the current API tests in tempest do not
 validate IPv6 to the same extent as IPv4.
 
 Also, Neutron now supports two extended attributes for IPv6 subnets
