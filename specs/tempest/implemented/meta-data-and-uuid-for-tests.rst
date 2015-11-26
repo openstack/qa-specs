@@ -132,4 +132,4 @@ Work Items
 Dependencies
 ============
 
-- No known external dependancies.
+- No known external dependencies.

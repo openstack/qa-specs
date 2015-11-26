@@ -83,7 +83,7 @@ attributes defined during setUpClass, which may not be there anymore.
 
 Disallow overriding ``tearDownClass`` defined in ``BaseTestCase`` with
 an hacking rule. Define ``tearDownClass`` so that it invokes a descendant
-specifc cleanup code, and finally cleans-up credentials.
+specific cleanup code, and finally cleans-up credentials.
 
 ::
 

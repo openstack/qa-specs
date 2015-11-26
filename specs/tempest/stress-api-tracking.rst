@@ -42,7 +42,7 @@ Example expected (and configurable) whitelisted methods could include:
 
 For each decorated method, maintain a dictionary that tracks:
 
-#. The number of successfull calls
+#. The number of successful calls
 #. The number of failed calls
 #. The list of observed stacktraces for the failed calls
 

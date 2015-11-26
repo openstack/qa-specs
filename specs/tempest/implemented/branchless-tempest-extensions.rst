@@ -43,7 +43,7 @@ This would imagine a world where the definition would look as follows
       icehouse:
          compute-ext: [floating-ips, aggregates, ... ]
 
-The non existance of an extensions list means assume 'all'. It is also
+The non existence of an extensions list means assume 'all'. It is also
 expected that you'd be able to specify 'rm-compute-ext' much like
 rm-services, so that you could do something as follows.
 ::
