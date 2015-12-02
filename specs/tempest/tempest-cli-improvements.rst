@@ -107,11 +107,11 @@ Proposed command structure
             --init-saved-state
             --delete-tempest-conf-objects
 
-    tempest config-create
+    tempest create-config
         arguments:
             TBD
 
-    tempest config-verify
+    tempest verify-config
         arguments:
             --update, -u
             --output, -o
