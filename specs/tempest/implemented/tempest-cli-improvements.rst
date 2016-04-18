@@ -18,8 +18,6 @@ Problem Description
 
 There are currently some Tempest CLI endpoints created when tempest is
 installed but there is no consistency in the console command names or function.
-Also, there is currently no way to execute a tempest run via a console
-command currently.
 
 Proposed Change
 ===============
@@ -126,21 +124,6 @@ Proposed command structure
             --os-password
             --os-tenant-name
 
-    tempest run
-        arguments:
-            --debug
-            --smoke
-            --tags
-            --bundles # key value pairs defined in tempest.conf under
-                      # [bundles] section.
-                      # NAME | [regex, list of tests, pointer to json file],
-                      # specifics TBD
-            --regex
-            --regex-file # see include/exclude link referenced above
-            --plugins # proposed at summit, depends on plugin interface
-                      # design which is TBD
-            --list-tests # outputs what tests would be executed, dry run
-
 Implementation
 ==============
 
@@ -170,7 +153,6 @@ Work Items
   * verify-tempest-config
 
 * Migrate config_tempest.py_ from downstream repository and integrate with cliff.
-* Implement Run command as outlined in command structure outlined above.
 
 
 Dependencies
