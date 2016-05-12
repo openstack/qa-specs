@@ -22,6 +22,15 @@ DevStack Project Specifications
 
    specs/devstack/*
 
+Other Project Specifications
+----------------------------
+
+.. toctree::
+   :glob:
+   :maxdepth: 2
+
+   specs/other/*
+
 Implemented Specifications
 --------------------------
 .. toctree::
@@ -30,6 +39,7 @@ Implemented Specifications
 
    specs/tempest/implemented/*
    specs/devstack/implemented/*
+   specs/other/implemented/*
 
 ====================================
 Specification Repository Information
