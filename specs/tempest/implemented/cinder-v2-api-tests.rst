@@ -29,7 +29,7 @@ Proposed change
 ===============
 
 This blueprint proposes that Cinder v1 and v2 tests share service client and
-test code. It includes the the following changes:
+test code. It includes the following changes:
 
 1. Create common service clients
 2. Create common base test class
