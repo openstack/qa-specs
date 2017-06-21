@@ -11,9 +11,9 @@ Tempest support for API microversions testing
 
 https://blueprints.launchpad.net/tempest/+spec/api-microversions-testing-support
 
-Since Kilo, nova has implemented API microversions and the other components (Ironic, etc)
-also implemented it now. However, currently Tempest does not have any support for microversions
-and doesn't test it at all.
+Since Kilo, nova has implemented API microversions and the other components
+(Ironic, etc) also implemented it now. However, currently Tempest does not
+have any support for microversions and doesn't test it at all.
 This proposal is to add microversions testing support in Tempest.
 
 Problem description
@@ -81,7 +81,7 @@ Test classes for each microversion
     TestClass D: min_microversion = '2.5', max_microversion = '2.10'
 
   +--------------------+-----------------------------------------------------+
-  | Configuration       | Test classes                                        |
+  | Configuration      | Test classes                                        |
   | (min,    max)      | (Passed microversion)                               |
   +====================+=====================================================+
   | None,     None     | A(Not passed), B(Not passed), C & D - Skipped       |

@@ -91,7 +91,6 @@ List the qa projects that this spec effects. For example:
 Implementation
 ==============
 Assignee(s)
-
 -----------
 Primary assignees:
   david-purcell [david.purcell@att.com]

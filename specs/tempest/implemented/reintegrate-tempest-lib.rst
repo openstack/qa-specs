@@ -134,8 +134,8 @@ Target Milestone for completion:
 Work Items
 ----------
 
- * Take ownership of tempest on pypi [1]
- * Enable publishing tempest to pypi [2]
+ * Take ownership of tempest on pypi [1]_
+ * Enable publishing tempest to pypi [2]_
  * Add reno release notes to both tempest and tempest-lib
  * Iterate through reintegration:
    * Move all the code from tempest-lib to tempest.lib in the tempest repo

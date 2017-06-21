@@ -54,7 +54,7 @@ this workflow with python-novaclient CLI tests:
  #. Add CLI base test classes with core functionality to the new library
  #. Switch the tempest CLI tests to use the library instead
  #. Remove code in tempest which has been switched to the library
- #. Add a functional test suite to the novaclient repository and copy the 
+ #. Add a functional test suite to the novaclient repository and copy the
     appropriate CLI tests from tempest
  #. Remove the copied novaclient CLI tests from tempest
 
@@ -154,4 +154,4 @@ library conversion.
 References
 ==========
 
-.. [1] http://lists.openstack.org/pipermail/openstack-dev/2014-March/028920.html
+- http://lists.openstack.org/pipermail/openstack-dev/2014-March/028920.html

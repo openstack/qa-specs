@@ -303,3 +303,6 @@ epub_copyright = u'2014, OpenStack QA Team'
 
 # Allow duplicate toc entries.
 #epub_tocdup = True
+
+# Do not warn about non-local image URI
+suppress_warnings = ['image.nonlocal_uri']
