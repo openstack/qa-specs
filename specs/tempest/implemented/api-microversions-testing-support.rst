@@ -70,9 +70,9 @@ Test classes for each microversion
 * Add configuration options for specifying test target microversions
   We need to specify test target microversions because the supported
   microversions are different between OpenStack clouds. For operating
-  multiple microversion tests in a single Tempest operation, configration
+  multiple microversion tests in a single Tempest operation, configuration
   options should represent the range of test target microversions.
-  New configration options also are min_microversion and max_microversion,
+  New configuration options also are min_microversion and max_microversion,
   and the test classes will be selected like the following::
 
     TestClass A: min_microversion = None,  max_microversion = 'latest'
