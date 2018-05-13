@@ -29,7 +29,7 @@ Add cliff Support to Tempest
 Cliff enables creation of console scripts by using a clean class
 structure for building applications and commands.
 
-See: https://pypi.python.org/pypi/cliff/
+See: https://pypi.org/project/cliff/
 
 For example setup.cfg would have::
 
