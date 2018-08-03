@@ -24,13 +24,19 @@ The structure of the repository is as follows::
 
   specs/
       devstack/
-      implemented/
-
+          implemented/
+      other
+          implemented/
+      patrole
+          implemented/
+      tempest
+          implemented/
 
 Expected Work Flow
 ==================
 
-1. Create a blueprint stub in ``tempest``  or ``devstack`` blueprint repository
+1. Create a blueprint stub in ``tempest``,  ``devstack``,  ``patrole`` or ``other``
+   blueprint repository
 2. Propose review to qa-specs repository (ensure bp:blueprint_name is
    in the commit message.  DevStack specs should go into the ``devstack/`` subdirectory
    but otherwise follow the same process.
