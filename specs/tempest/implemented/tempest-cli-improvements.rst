@@ -165,7 +165,7 @@ References
 * https://etherpad.openstack.org/p/tempest-cli
 * https://etherpad.openstack.org/p/YVR-QA-Tempest-CLI
 * https://etherpad.openstack.org/p/YVR-QA-Liberty-Priorities
-* http://docs.openstack.org/developer/cliff
+* https://docs.openstack.org/cliff/latest/
 * https://github.com/redhat-openstack/tempest/blob/master/tools/config_tempest.py
 
 .. _config_tempest.py: https://github.com/redhat-openstack/tempest/blob/master/tools/config_tempest.py
