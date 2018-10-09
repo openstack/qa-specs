@@ -34,7 +34,7 @@ developers. This process consists of the following steps:
 
 #. A "How to develop scenario tests for Neutron" tutorial will be developed as
    an extension to the `Tempest documentation
-   <http://docs.openstack.org/developer/tempest/field_guide/scenario.html>`_.
+   <https://docs.openstack.org/tempest/latest/field_guide/scenario.html>`_.
    This tutorial will include clear and strict guidelines for documentation and
    logging. On one hand, each test is unique, and complex operations will most
    likely be included in supporting methods or shared between modules, so
