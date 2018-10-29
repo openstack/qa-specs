@@ -81,7 +81,7 @@ Test classes for each microversion
     TestClass D: min_microversion = '2.5', max_microversion = '2.10'
 
   +--------------------+-----------------------------------------------------+
-  | Configration       | Test classes                                        |
+  | Configuration       | Test classes                                        |
   | (min,    max)      | (Passed microversion)                               |
   +====================+=====================================================+
   | None,     None     | A(Not passed), B(Not passed), C & D - Skipped       |
@@ -99,7 +99,7 @@ Test classes for each microversion
   | 'latest', 'latest' | A('latest'), B - Skipped, C('latest'), D - Skipped  |
   +--------------------+-----------------------------------------------------+
 
-  So basically the configration min_microversion value is passed on the
+  So basically the configuration min_microversion value is passed on the
   microversion header. However if the selected class' min_microversion
   is bigger, the class' min_microversion is passed instead.
   If you'd like to always pass the maximum micoversion then, you need to
