@@ -22,6 +22,15 @@ DevStack Project Specifications
 
    specs/devstack/*
 
+Patrole Project Specifications
+------------------------------
+
+.. toctree::
+   :glob:
+   :maxdepth: 2
+
+   specs/patrole/*
+
 Other Project Specifications
 ----------------------------
 
@@ -39,6 +48,7 @@ Implemented Specifications
 
    specs/tempest/implemented/*
    specs/devstack/implemented/*
+   specs/patrole/implemented/*
    specs/other/implemented/*
 
 ====================================
