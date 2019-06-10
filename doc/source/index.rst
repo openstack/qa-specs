@@ -4,8 +4,11 @@
 QA Project Specifications
 =========================
 
-Tempest Project Specifications
-------------------------------
+Specifications
+==============
+
+Tempest
+-------
 
 .. toctree::
    :glob:
@@ -13,8 +16,8 @@ Tempest Project Specifications
 
    specs/tempest/*
 
-DevStack Project Specifications
--------------------------------
+DevStack
+--------
 
 .. toctree::
    :glob:
@@ -22,8 +25,8 @@ DevStack Project Specifications
 
    specs/devstack/*
 
-Patrole Project Specifications
-------------------------------
+Patrole
+-------
 
 .. toctree::
    :glob:
@@ -31,8 +34,8 @@ Patrole Project Specifications
 
    specs/patrole/*
 
-Other Project Specifications
-----------------------------
+Other
+-----
 
 .. toctree::
    :glob:
@@ -41,17 +44,44 @@ Other Project Specifications
    specs/other/*
 
 Implemented Specifications
---------------------------
+==========================
+
+Tempest
+-------
+
 .. toctree::
    :glob:
    :maxdepth: 1
 
    specs/tempest/implemented/*
+
+DevStack
+--------
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
    specs/devstack/implemented/*
+
+Patrole
+-------
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
    specs/patrole/implemented/*
+
+Other
+-----
+
+.. toctree::
+   :glob:
+   :maxdepth: 1
+
    specs/other/implemented/*
 
-====================================
 Specification Repository Information
 ====================================
 
@@ -61,7 +91,6 @@ Specification Repository Information
    README <README>
 
 
-==================
 Indices and tables
 ==================
 
