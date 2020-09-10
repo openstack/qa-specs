@@ -3,3 +3,4 @@ docutils>=0.11,!=0.13.1  # OSI-Approved Open Source, Public Domain
 sphinx>=2.0.0,!=2.1.0 # BSD
 yasfb>=0.5.1
 openstackdocstheme>=2.2.1 # Apache-2.0
+sphinxcontrib-svg2pdfconverter>=0.1.0 # BSD
