@@ -63,8 +63,8 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'QA Specs'
-copyright = u'%s, OpenStack QA Team' % datetime.date.today().year
+project = 'QA Specs'
+copyright = '%s, OpenStack QA Team' % datetime.date.today().year
 
 # openstackdocstheme options
 openstackdocs_repo_name = 'openstack/qa-specs'
@@ -190,8 +190,8 @@ htmlhelp_basename = 'QA-Specsdoc'
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'doc-qa-specs.tex', u'QA Specs Documentation',
-   u'OpenStack QA Team', 'manual'),
+  ('index', 'doc-qa-specs.tex', 'QA Specs Documentation',
+   'OpenStack QA Team', 'manual'),
 ]
 
 latex_use_xindy = False
@@ -225,8 +225,8 @@ latex_elements = {
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'qa-specs', u'QA Design Specs',
-     [u'OpenStack QA Team'], 1)
+    ('index', 'qa-specs', 'QA Design Specs',
+     ['OpenStack QA Team'], 1)
 ]
 
 # If true, show URL addresses after external links.
@@ -239,8 +239,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'QA-specs', u'QA Design Specs',
-   u'OpenStack QA Team', 'QA-specs', 'Design specifications for the QA project.',
+  ('index', 'QA-specs', 'QA Design Specs',
+   'OpenStack QA Team', 'QA-specs', 'Design specifications for the QA project.',
    'Miscellaneous'),
 ]
 
@@ -257,10 +257,10 @@ texinfo_documents = [
 # -- Options for Epub output ---------------------------------------------------
 
 # Bibliographic Dublin Core info.
-epub_title = u'QA Specs'
-epub_author = u'OpenStack QA Team'
-epub_publisher = u'OpenStack QA Team'
-epub_copyright = u'2014, OpenStack QA Team'
+epub_title = 'QA Specs'
+epub_author = 'OpenStack QA Team'
+epub_publisher = 'OpenStack QA Team'
+epub_copyright = '2014, OpenStack QA Team'
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
