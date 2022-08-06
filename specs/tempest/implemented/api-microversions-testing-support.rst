@@ -121,7 +121,7 @@ Test classes for each microversion
   to specify it as experimental job to know we need to update Tempest for
   supporting the latest microversion.
 
-  These configration options should be added for each project(Nova, Ironic,
+  These configuration options should be added for each project(Nova, Ironic,
   etc.) because the microversion numbers are different between projects.
 
 JSON-Schema for each microversion (Nova specific)
@@ -201,7 +201,7 @@ Work Items
 * Add a test class for a single microversion(as sample)
 * Migrate tested microversion testing framework to Tempest-lib
 * Consume those interface from Tempest-lib and remove from Tempest
-* Change the configrations on openstack-infra/project-config for master
+* Change the configurations on openstack-infra/project-config for master
 
 Dependencies
 ============
