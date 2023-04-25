@@ -25,15 +25,6 @@ DevStack
 
    specs/devstack/*
 
-Patrole
--------
-
-.. toctree::
-   :glob:
-   :maxdepth: 2
-
-   specs/patrole/*
-
 Other
 -----
 
